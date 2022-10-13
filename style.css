@@ -1,0 +1,120 @@
+body {
+    background: url("../img/white-background.jpg");
+    margin: 0;
+    font-family: Tahoma;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.card {
+    width: 600px;
+    margin: 30px auto;
+    background-color: rgba(245, 235, 253, 0.95);
+    box-shadow: 20px 20px 10px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+.ava {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.title {
+    font-size: 24px;
+    text-align: center;
+    color: #035b8f;
+    animation: shadow 5s 0s infinite;
+}
+.sub-title {
+    font-size: 18px;
+    color: #035b8f;
+    text-align: center;
+}
+.text {
+    font-size: 15px;
+    text-align: justify;
+}
+.list1 {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 15px;
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.list2 {
+    padding-left: 0;
+    text-indent: 10px;
+    list-style-position: inside;
+    font-size: 15px;
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.list3 {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 15px;
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.list4 {
+    padding-left: 0;
+    text-indent: 10px;
+    list-style-position: inside;
+    font-size: 15px;
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.p1 {
+    text-align: justify;
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.p2 {
+    text-align: justify;
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.sub-title2 {
+    font-size: 18px;
+    color: #035b8f;
+    text-align: center;
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.li {
+    text-decoration: none;
+}
+
+@keyframes shadow {
+    0%{
+        color: #035b8f;
+
+
+    }
+    25%{
+        color: #13171e;
+        letter-spacing: 1px;
+    50%{
+        color: #13171e;
+        letter-spacing: 2px;
+    }
+    100%{
+        color: #035b8f;
+
+    }
+}
